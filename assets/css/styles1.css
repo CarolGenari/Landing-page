@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* p,
+h1 {
+    color: purple;
+} */
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+
+.color-green {
+    color: green;
+}
+
+.main-content h2 {
+    font-style: italic;
+}
+
+.main-content .heading {
+    color: yellow;
+}
+
+.main-content h2.heading {
+    color: deeppink;
+}
+
+div {
+    color: initial;
+}
+
+.pai>.filha {
+    color: deepskyblue
+}
+
+.pai h2+p {
+    color: blue
+}
+
+.pai p+h2 {
+    color: chartreuse;
+}
+
+.pai h2~p {
+    color: coral;
+}
+
+[meu-atributo] {
+    color: darkcyan;
+}
+
+[atributo~="valor1"] {
+    color:darkgreen;
+}

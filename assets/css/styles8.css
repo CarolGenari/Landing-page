@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(3, 1fr 1fr);
+}
+
+.grid div {
+    min-height: 100px;
+    background: tomato;
+}
